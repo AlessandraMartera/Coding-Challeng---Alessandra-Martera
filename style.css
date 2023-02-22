@@ -1,0 +1,78 @@
+/* Collegamento al Font */
+*{
+    font-family: 'Shantell Sans', cursive;
+}
+
+/* Immagine di background dell'intera pagina */
+body {
+    background-image: url(img/background.jpg);
+    background-origin: content-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Contenitore Grigio Opaco */
+.window {
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 30px;
+    width: 60%;
+    background-color: rgba( 1, 1, 1, 0.7);
+    border-radius: 20px;
+    padding: 50px;
+}
+
+/* Intestazione con Logo e nome */
+header {
+    text-align: center;
+    margin-right: auto;
+    color: rgb(90, 250, 15)
+}
+
+header > img {
+    width: 200px;
+} 
+
+/*tabella di navigazione*/
+nav {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(90, 250, 15);
+    color: white;
+
+}
+
+/* coloroe delle scritte della pagina */
+
+main {
+    color: white;
+}
+
+/*varie sezioni */
+
+.g22 > .caricamento {
+    width: 45%;
+    height: 30px;
+    background-color: rgb(208, 156, 67);
+    border-radius: 5px;
+}
+
+.m24 > .caricamento {
+    width: 20%;
+    height: 30px;
+    background-color: rgb(0, 255, 170);
+    border-radius: 5px;
+}
+
+.f154 > .caricamento {
+    width: 80%;
+    height: 30px;
+    background-color: rgb(43, 120, 255);
+    border-radius: 5px;
+}
+
+/*firma*/
+footer {
+    margin-top: 10px;
+    text-align: center;
+}
